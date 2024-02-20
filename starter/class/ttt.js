@@ -52,8 +52,8 @@ class TTT {
       this.cursor.resetBackgroundColor()
 
       this.cursor.down()
-      this.cursor.setBackgroundColor()
-      Screen.render()
+      this.cursor.setBackgroundColor();
+      Screen.render();
 
     }
      moveLeft(){
